@@ -353,12 +353,72 @@ input[type=submit] {
 
 @media screen and (max-width: 640px) {
   #main-section {
-    width: 600px !important;
-    height: 600px;
+    width: 550px !important;
+    height: 700px;
+  }
+  
+  p {
+    font-size: 16px;
   }
 
-  img {
-    height: 100%;
-    width: 300px;
+  #firstparagraph {
+    margin-top: 370px;
+  }
+
+  #cat {
+    width: 490px;
+    height: 330px !important;
+  }
+
+  #logo {
+    width: 607px;
+    margin-left: 0px;
+  }
+
+  ul {
+    margin-right: 185px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #main-portfolio {
+    width: 660px;
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+  #main-portfolio {
+    width: 330px;
+    margin-left: 136px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  #main-content {
+    width: 600px;
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #main-content {
+    width: 680px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #main-content {
+    width: 585px;
+    margin-left: 20px;
+    margin-top: 45px;
+  }
+  #logo {
+    width: 624.3px;
   }
 }
